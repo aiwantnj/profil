@@ -1,0 +1,77 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
+
+body {
+  margin: 100;
+  padding: 100;
+  display: calc();
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+a{
+  margin: 0% 10px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  backround: #df0000;
+  width: 100px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: aqua;
+  transition: 0.5s;
+  background: rgba(34, 14, 215, 0);
+  color: var(--color);
+  font-size: 2.5em;
+  -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0,0,0,0,0),rgba(0,0,0,0,4));
+
+  animation:cubic-bezier(0.075, 0.82, 0.165, 1);{
+    background: var(--color);
+    color:#050801;
+    box-shadow: 0 0 5px var(--color);
+    0 0 25px var(--color),
+    0 0 50px var(--color),
+    0 0 200px var(--color);
+  }
+}
+
+h1{
+  color: aliceblue;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+  color: aliceblue;
+  font-size: 20px;
+  height: 80px;
+  font-weight: 100%;
+  font-display:calc();
+}
+
+section i{
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+a :hover{
+  color: #0038df;
+}
+
+h2{
+  color: aliceblue;
+  font-family:sans-serif;
+
+}
+
+div {
+  background-repeat: no-repeat, repeat;
+  background-image: url("https://devsnap.me/css-animated-backgrounds"), url("https://devsnap.me/css-animated-backgrounds");
+  background-blend-mode: lighten;
+}
+body {
+  background-image: url("images/p.gif");
+  background-color: #cccccc;
+ }
